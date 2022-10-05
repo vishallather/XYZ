@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Edu+NSW+ACT+Foundation&family=Edu+VIC+WA+NT+Beginner&family=Karla:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Edu+NSW+ACT+Foundation&family=Edu+VIC+WA+NT+Beginner&family=Karla:ital,wght@1,200&family=Shadows+Into+Light&display=swap');
+body{
+    background-color:#939695;
+}
+/*comment*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* to change the font*/
+
+nav{
+    font-family:'Edu NSW ACT Foundation','Shadows Into Light';
+}
+/* for every nav items*/
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 72px;
+    background-color: black; 
+    color: white;
+}
+/* for every li item*/
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 64px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* for container*/
+
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    font-family:'Edu NSW ACT Foundation','Shadows Into Light';
+    display: flex;
+    width: 96%;
+    border-radius: 126px;
+    padding: 19px;
+    background-image: url('../Downloads/dan.jpg');
+    background-repeat: no-repeat;
+    background-size: 1550px 600px;
+    position: relative;
+    left: 11px;
+    
+    
+}    
+
+/* for bottom items*/
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* # for "id" & this is for myProgressBar */
+
+#myProgressBar{
+    width: 90vw;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+
+/* for icons of progressbar only*/
+
+.icons{
+    margin-top: 11px;
+    
+}
+/*masterlist ................*/
+
+
+#masterPlay{
+    margin: 0px 2px;  
+}
+#masterBackward{
+    height: 0px;
+}
+#masterForward{
+    height: 0px;
+}
+
+
+/* to make cursor pointer*/
+
+.icons i{
+    cursor: pointer;
+}
+
+/* --------------------*/
+
+.songitemcontainer{
+    margin: 54px 0px;
+}
+
+
+/* for song item*/
+
+.songItem{
+    height: 59px;
+    display: flex;
+    width: 140%;
+    background-color: black;
+    position: relative;
+    left: 14px;
+    margin: 39px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 36px;
+    
+    
+}
+
+/* for song image */
+ 
+.songItem img{
+    width:60px;
+    height: 56px;
+    margin: 0 16px;
+    border-radius: 30px;
+    
+}
+
+/* to make change in time of songs */
+
+.timestamp{
+    margin:0 30px ;
+}
+
+.timestamp i{
+    cursor: pointer;
+    padding: 4px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 111px;
+    top: 50px; 
+    font-family:'Edu NSW ACT Foundation','Shadows Into Light';   
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
+
+.text{
+    position: relative;
+    left: 555px;
+    bottom: 73px;
+    color: rgb(86, 114, 207);
+}
